@@ -1,0 +1,501 @@
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9); 
+  z-index: 1000; 
+}
+
+
+.navbar-toggler {
+  border: none; 
+}
+
+.navbar-toggler-icon {
+  background-color: rgb(13, 16, 39);
+  border-radius: 3px;
+}
+.navbar-nav .nav-link {
+  padding: 10px 20px; 
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+.navbar-nav .nav-link i {
+  font-size: 1.2rem; 
+  transition: transform 0.3s ease;
+  margin-right: 8px; 
+}
+.navbar-nav .nav-link:hover {
+  border-radius: 5px; 
+}
+
+.navbar-nav .nav-link:hover i {
+  transform: scale(1.2); 
+}
+.fixed-top {
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 10px 0; 
+} 
+.color-t{
+  background-color: rgba(13, 16, 39, 0.459);
+  border: none;
+} 
+.navbar {
+    z-index: 1;
+}
+.color-t{
+  background-color: rgba(13, 16, 39, 0.459);
+}
+
+.navbar .nav-link {
+    color: white !important;
+}
+.ml-3{
+    margin-left: 3em;
+}
+.pl-5{
+ padding-left: 7em;
+}
+.font-weight-bold{
+    font-weight: bold;
+}
+
+
+.background {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background: url('Pictures/About\ Us.jpg') no-repeat center center/cover;
+  background-size: cover;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(1, 4, 29, 0.733); /* Adjust color and opacity as needed */
+}
+.company-name{
+    width: 100%;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    color: #ffffff;
+    font-size: 3em;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+li{
+    margin-right: 40px;
+}
+li a{  
+      font-size: 18px;
+    font-weight: bold;
+}
+.about_left{
+    margin-right: 100px;
+}
+.about_left h2{
+    font-size: 38px;
+    text-align: center;
+    margin: 90px 0 15px;
+    color: #ffcb0f;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'futura_ltbold', sans-serif;
+}
+.about_bg img{
+    height: 450px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.about_left h3{
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0px 0 30px;
+    text-transform: inherit;
+    text-align: center;
+    color: #484848;
+    font-family: 'futura_ltbold', sans-serif;
+}
+.about_left p{
+    width: 100%;
+    height: auto;
+    font-size: 22px;
+    text-align: center;
+    color: #000;
+    padding-right: 30px;
+    margin-top: 5px;
+    padding-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.custom-images3 img{
+    width: 100%;
+    height: 450px;
+    }
+    .custom-images3{
+      margin: 0px;
+      padding: 0px;
+    }
+    .content4{
+      width: 100%;
+      height: 450px;
+      margin: 0px;
+      
+    }
+    .custom-image3 h4,.about_left h3{
+      width: 100%;
+      height: auto;
+      text-align: center;
+      font-size: 40px;
+      font-weight: bold;
+      font-family: "Lobster", sans-serif;
+      
+    }
+    .custom-image3 p{
+      width: 100%;
+      height: 375px;
+      font-size: 22px;
+      text-align: center;
+      
+      color: #000;
+      padding-right: 130px;
+      margin-top: 10px;
+      padding-left: 130px;
+      font-family: 'Times New Roman', Times, serif;
+  
+    }
+   .section3{
+    margin-top:  50px;
+
+   }
+
+/* footer */
+footer{
+    top: 1670px;
+    position: absolute;
+    width: 100%;
+    right: 0;
+    background-color: #212d45;
+}
+
+.toggles h5{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1.8em;
+    font-size: 1.333em;
+}
+.toggles p{
+    color: #ffffff;
+}
+.block{
+    margin-top: 50px;
+    width: 400px;
+    padding-left: 60px;
+    padding-right: 20px;
+}
+.line{
+    border-style: solid;
+    border-width: 0px;
+    border-top-width: 1px;
+    border-top-color: rgba(195, 193, 193, 0.27);
+    width: 100%;
+}
+
+.social-icon {
+  padding-left: 65px;
+    color: #7acdee;
+    font-size: 1.5rem;
+}  
+
+@media (max-width: 1200px) {
+    /* .logo {
+        height: 100px;
+        top: 50px;
+        left: 0px;
+    
+    } */
+    .about_left h2{
+        font-size: 32px;
+    }
+    .custom-image3 h4,.about_left h3{
+        font-size: 32px;
+        
+      }
+      .about_bg img{
+        padding-top: 100px;
+        height: 550px;
+        width: 100%;
+    }
+      .custom-image3 p{
+        width: 100%;
+        height: auto;
+        font-size: 22px;
+        color: #000;
+        padding-right: 75px;
+        padding-left: 75px;
+        font-family: 'Times New Roman', Times, serif;
+    
+      }
+      .custom-images3 img{
+        height: 480px;
+      }
+      footer{
+        top: 1720px;
+    }
+    }
+@media (max-width: 991px) {
+  .collapse.navbar-collapse {
+    background-color: rgb(13, 16, 39);
+    box-shadow: 0 2px 10px rgba(113, 131, 148, 0.2);
+    border-radius: 5px;
+    padding: 15px;
+  }
+   
+    .background {
+      height: 450px;
+    }
+    .company-name{
+        top:200px;
+        font-size: 3.5em;
+      }
+    .about_left h2{
+        text-align: center;
+        font-size: 28px;
+        font-weight: 800;
+    }
+    .about_left h3{
+        font-size: 28px;
+        
+      }
+    .custom-image3 h4{
+        font-size: 28px;
+        margin-top: 50px;
+    }
+   
+
+      
+      .about_bg img{
+        height: 400px;
+        width: 300px;
+        padding-top: 0px;
+        display: block;
+    margin: 0 auto;
+        
+    }
+    .about_left p{
+        height: auto;
+      
+    }
+    .custom-images3{
+        position: relative;
+        top:320px;
+        
+      }
+      .custom-image3{
+        position: relative;
+        top:-350px;
+    
+    }
+      .custom-image3 p{
+        width: 100%;
+        height: auto;
+        padding-right: 75px;
+        padding-left: 75px;
+    
+      }
+      .custom-images3 img{
+        width: 100%;
+        height: 330px;
+        }
+
+      footer{
+        top: 2150px;
+    }
+}
+@media (max-width: 768px){
+    /* .logo {
+
+    height: 100px;
+    top: 70px;
+    left: 80px;
+  }} */}
+    
+@media (max-width: 767px) {
+  .logo{
+    margin-left: -20px;
+   }
+    .background {
+        height: 400px;
+      }
+      .company-name{
+        top: 180px;
+      }
+      .toggles h5{
+        font-weight: 600;
+        line-height: 1.5em;
+        font-size: 1.133em;
+      }
+      .about_left p, .custom-image3 p{
+        height: auto;
+        font-size: 20px;
+      }
+      .about_bg {
+        margin-top: 20px;
+      }
+      .custom-images3{
+        top:420px;
+        
+      }
+     
+      footer{
+        top: 2250px;
+    }
+}
+@media (max-width: 630px) {
+  .logo{
+    margin-left: 30px;
+  }}
+@media (max-width: 575px) {
+    .background {
+        height: 350px;
+       
+    }  
+   
+    .logo {
+      height: 80px;
+      width: 80px;
+    }
+    .company-name{
+        top: 180px;
+        font-size: 1.5em;
+    }
+    .about_left h2{
+      text-align: center;
+      font-size: 28px;
+      font-weight: 800;
+      margin-top: 20px;
+  }
+  .about_left h3{
+      font-size: 28px;
+      margin-top: 10px;
+      
+    }
+  .custom-image3 h4{
+      font-size: 28px;
+      margin-top: 50px;
+  }
+ 
+
+    
+    .about_bg img{
+      height: 350px;
+      width: 250px;
+      padding-top: 20px;
+      display: block;
+  margin: auto;
+      
+  }
+  .about_left p{
+      height: auto;
+    
+  }
+  .custom-images3{
+      position: relative;
+      top:400px;
+      
+    }
+    .custom-image3{
+      position: relative;
+      top:-250px;
+  
+  }
+    .custom-image3 p{
+      width: 100%;
+      height: auto;
+      padding-right: 35px;
+      margin-top: 10px;
+      padding-left: 35px;
+  
+    }
+    .custom-images3 img{
+      width: 100%;
+      height: 250px;
+      }
+
+    footer{
+      top: 2100px;
+  }
+}
+@media (max-width: 425px) {
+  
+    .background {
+      height: 300px;
+     
+  }
+  
+  .company-name{
+    top: 150px
+  }
+  .custom-images3 img{
+    height: 300px;
+  }
+  .custom-image3{
+    position: relative;
+    top:-400px;
+
+}
+  footer{
+    top: 2150px;
+}
+}
+@media (max-width: 375px) {
+ 
+  .logo {
+    height: 70px;
+    width: 70px;
+  }
+footer{
+  top: 2220px;
+}
+}
+@media (max-width: 320px) {
+ 
+ .about_left p, .custom-image3 p{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+ }
+ .about_left h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+.about_left h3{
+  font-size: 22px;
+}
+.custom-image3 h4{
+  font-size: 22px;
+  margin-top: 45px;
+ 
+}
+.custom-images3 img{
+  height: 200px;
+}
+.custom-images3{
+  top: 270px;
+}
+footer{
+  top: 1920px;
+}
+
+}
