@@ -441,7 +441,7 @@ div img {
     width: 200px;
     height: 50px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     border-radius: 0; 
     background-color: #e7bf0c;
     font-size: 20px;
@@ -949,7 +949,7 @@ footer{
 font-size: 36px;
 }
 .custom-button-size, .custom-button-size2{
-  width: 120px;
+  width: 140px;
   height: 40px;
   font-size: 17px;
 }
@@ -1008,6 +1008,11 @@ footer{
   top: 5550px;
 }
 }
+@media (max-width: 398px) {
+
+  .section2{
+    top: 3550px;
+  }}
 @media (max-width: 375px) {
   .logo {
     height: 70px;
@@ -1018,10 +1023,10 @@ footer{
 
 }
 .section2{
-  top: 3350px;
+  top: 3200px;
 }
 .section3{
-  top: 4450px;
+  top: 4300px;
 }
 #heading2 {
   font-size: 24px;
@@ -1031,10 +1036,47 @@ footer{
   margin-top: -30px;
   margin-right: 0px;
 }
+ .content1 #heading4{
+  font-size: 30px;
+  
+}
+.content2 h2{
+
+  font-size: 30px;
+  
+}
 footer{
-  top: 5400px;
+  top: 5280px;
 }}
-   
+  @media (max-width: 352px) {
+
+.section2{
+  top: 3250px;
+ 
+}
+  .section3{
+  top: 4350px;
+}
+  .content1 #heading4{
+  font-size: 30px;
+  
+}
+.content2 h2{
+
+  font-size: 30px;
+  
+}}
+@media (max-width: 332px) {
+
+.section2{
+  top: 3320px;
+}
+.section3{
+  top: 4400px;
+}
+footer{
+  top: 5300px;
+}}
 @media (max-width: 320px) {
  
   #Link1 {
@@ -1047,9 +1089,7 @@ footer{
 .section3{
   top: 4450px;
 }
-.content3{
-  margin-top: 200px;
-  margin-left: 0px;
+  footer{
+  top: 5380px;
 }
-  
   } 
