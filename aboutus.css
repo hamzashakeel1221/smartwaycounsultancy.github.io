@@ -472,6 +472,16 @@ footer{
     top:-400px;
 
 }
+  .custom-image3 p{
+  padding-right: 0px;
+  padding-left: 0px;
+
+}
+.about_left p{
+  padding-right: 0px;
+  padding-left: 0px;
+
+}
   footer{
     top: 2150px;
 }
